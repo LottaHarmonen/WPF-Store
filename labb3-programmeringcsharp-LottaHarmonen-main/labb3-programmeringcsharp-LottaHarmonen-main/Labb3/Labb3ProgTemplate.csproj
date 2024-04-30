@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>Labb3ProgTemplate</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ImageFolder\Apple.jpg" />
+    <None Remove="ImageFolder\Banana.jpg" />
+    <None Remove="ImageFolder\Beef.png" />
+    <None Remove="ImageFolder\Milk.png" />
+    <None Remove="ImageFolder\NoImage.jpg" />
+    <None Remove="ImageFolder\Pork.png" />
+    <None Remove="ImageFolder\Yoghurt.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ImageFolder\Apple.jpg" />
+    <Resource Include="ImageFolder\Banana.jpg" />
+    <Resource Include="ImageFolder\Beef.png" />
+    <Resource Include="ImageFolder\Milk.png" />
+    <Resource Include="ImageFolder\NoImage.jpg" />
+    <Resource Include="ImageFolder\Pork.png" />
+    <Resource Include="ImageFolder\Yoghurt.jpg" />
+  </ItemGroup>
+
+</Project>
